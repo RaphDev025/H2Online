@@ -1,0 +1,8 @@
+{
+  "short_name": "H2Online",
+  "name": "H2Online: Sales and Inventory Web Application",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

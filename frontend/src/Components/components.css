@@ -1,0 +1,211 @@
+#side{
+    width: 175px;
+    font-size: 0.9em;
+}
+#header{
+    width: calc(100% - 175px);
+    font-size: 0.8em;
+    box-shadow: 5px 0 8px 3px var(--gray);
+    background-color: var(--bright-blue);
+}
+.uName{
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+.itm{
+    color: var(--blue);
+    transition: hover 0.3s ease-in-out;
+}
+    .itm:hover{
+        color: var(--dark-blue);
+        cursor: pointer;
+    }
+.list-itm > a{
+    font-size: 0.9em;
+    color: var(--dark-blue);
+}
+.list-itm{
+    transition: all 0.3s ease-in-out;
+    outline: 1px solid transparent;
+}
+    .list-itm:hover{
+        cursor: pointer;
+        outline-color: var(--dark-blue);
+        background-color: var(--bright-blue);
+    }
+.data-txt{
+  color: var(--dark-blue);
+  font-family: var(--font-family4);
+  font-weight: 700;
+  font-size: 30px;
+}
+.data-caption{
+  font-size: 14px;
+  color: #00a2ffc7
+}
+.header-txt{
+  font-family: var(--font-family3);
+  font-stretch: condensed;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--dark-blue);
+}
+.overview{
+  color: var(--dark-blue);
+  border-left: 4px solid var(--cyan);
+  cursor: default;
+  background-color: var(--white);
+}
+.table-container {
+  overflow: auto;
+  height: 300px;
+}
+.table-container-two {
+  overflow: auto;
+  height: 420px;
+}
+.table-row{
+  background-color: var(--white);
+  color: var(--dark-blue);
+  transition: all 0.3s ease;
+}
+  .table-row:hover{
+    background: var(--dark-blue);
+    color: var(--white);
+  }
+.unstyled{
+  text-decoration: none;
+}
+.un-select{
+  background-color: #dbecff;
+  transition: all 0.3s ease;
+}
+  .un-select:hover{
+    background-color: var(--dark-blue);
+    color: #fff;
+  }
+.un-select-two{
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+  .un-select-two:hover{
+    background-color: var(--dark-blue);
+    color: #fff;
+  }
+.selected{
+  background-color: var(--dark-blue);
+  transition: all 0.3s ease;
+  color: #fff;
+  & .btn{
+    color: #fff;
+  }
+}
+.button-itm{
+  background-color: var(--dark-blue);
+  border: none;
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  outline: 1px solid var(--dark-blue);
+  font-size: 12px;
+}
+  .button-itm:hover{
+    cursor: pointer;
+    background-color: var(--blue);
+    outline-color: var(--blue);
+  }
+
+.button-itm-outline{
+  border: 1px solid var(--dark-blue);
+  color: var(--dark-blue);
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  font-size: 12px;
+}
+  .button-itm-outline:hover{
+    cursor: pointer; 
+    background-color: var(--dark-blue);
+    color: var(--white);
+  }
+.button-itm-outline-dngr{
+  border: 1px solid red;
+  color: red;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  font-size: 12px;
+}
+    .button-itm-outline-dngr:hover{
+      cursor: pointer; 
+      background-color: red;
+      color: var(--white);
+    }
+.label{
+  font-size: 10px;
+}
+.stat{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.itm-card{
+  font-size: small;
+}
+.heading{
+  height: 80px;
+}
+.lists-container{
+  height: calc(100% - 80px);
+}
+.lists{
+  overflow-y: scroll;
+}
+.booking-item{
+  height: 220px;
+  background-color: var(--bright-blue);
+  border: 1px solid var(--dark-blue);
+}
+.booking-label{
+  color: var(--gray);
+  font-size: 12px;
+}
+.booking-value{
+  font-size: 12px;
+}
+.inner-header{
+  font-family: var(--font-family3);
+  font-stretch: condensed;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+.receipt-header{
+  background-color: var(--cyan);
+  color: var(--white);
+}
+.pos-itm{
+  width: 150px;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+  .pos-itm:hover{
+    cursor: pointer;
+    background-color: var(--light-cyan);
+  }
+.list{
+  overflow-y: scroll;
+  height: 270px
+}
+.not-selectable {
+  opacity: 0.5; /* Reduces opacity for un-selectable items */
+  pointer-events: none; /* Disables click events on un-selectable items */
+}
+.selectable{
+  color: var(--cyan);
+}
+.select{
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+.neuromorphism{
+  border-radius: 0px;
+  background: #75CDFF;
+  box-shadow: inset 9px -9px 18px #60a8d1,
+              inset -9px 9px 18px #8af2ff;
+}

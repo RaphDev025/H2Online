@@ -1,0 +1,58 @@
+.prompt{
+    font-family: var(--font-family3);
+    font-weight: 300;
+}
+.header{
+    font-family: var(--font-family1);
+}
+label{
+    display: block;
+    position: relative;
+    transform: translateY(1px);
+    transition: transform 300ms;
+    color: var(--blue);
+    width: 100%;
+    padding-left: 10px;
+    font-family: var(--font-family2);
+}
+input{
+    transition: all 0.1s ease-in-out;
+    color: var(--blue);
+    background-color: var(--bright-blue);
+    border: 1px solid var(--gray);
+    width: 250px;
+    font-family: var(--font-family2);
+}
+input:focus{
+    box-shadow: 0px 0px 3px 3px rgba(0, 153, 255, 0.411);
+    border: 1px solid var(--blue);
+    outline: none;
+}
+label:has(+ input:placeholder-shown){
+    transform: translateY(33px);
+    color: var(--gray);
+}
+input::placeholder{
+    color: transparent;
+}
+#logBtn {
+    background-color: var(--dark-blue);
+    border: 2px solid transparent;
+    color: var(--white);
+    outline: 2px solid transparent;
+    font-family: var(--font-family2);
+    transition: all 0.3s ease-in-out;
+}
+    #logBtn:hover {
+        outline-offset: 5px;
+        outline-color: var(--dark-blue);
+        box-shadow: 0 0 0 2px var(--white); 
+    }
+    #logBtn:disabled{
+        opacity: 50%;
+        outline-offset: -2px;
+    }
+.error-msg{
+    font-size: small;
+    font-stretch: condensed;
+}

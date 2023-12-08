@@ -1,0 +1,73 @@
+main{
+    background-color: var(--bright-blue);
+}
+#dash, #customer, #meter, #point-of-sales, #sales, #order, #logistic, #booking, #inventory, #customerprofile{
+    padding: 0;
+    padding-top: 50px;
+    padding-left: 175px;
+    background-color: var(--bright-blue);
+}
+.overview-container{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.statistic-container{
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+}
+.statistic{
+    background-color: var(--white);
+}
+.header, .page-header{
+    color: var(--dark-blue);
+    font-family: var(--font-family3);
+    font-stretch: condensed;
+    font-weight: 600;
+    font-size: 14px;
+}
+.page-header{
+    font-size: 36px;
+}
+.itm{
+    cursor: pointer;
+    color: var(--dark-blue)
+}
+.ord-summary{
+    width: calc(100% - 450px);
+}
+.layout{
+    height: calc(100% - 30px);
+}
+.layout-two{
+    overflow: hidden;
+}
+.customer-dropdown {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 100px; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    width: 200px;
+}
+
+.customer-dropdown .dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.customer-dropdown .dropdown-item:hover {
+    background: #f1f1f1;
+}
+.user-date, .user-info{
+    color: var(--gray);
+    font-size: 10px;
+    font-weight: 700;
+}
+.user-info{
+    background-color: #DBEEF8;
+}
+.user-details{
+    color: var(--blue);
+}

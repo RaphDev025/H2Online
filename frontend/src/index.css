@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--light-cyan);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--blue);
+}
+:root{
+  --black-50: #00000050;
+  --black-20: #00000020;
+  --black: #000;
+  --dark-blue: #003E81;
+  --blue: #005EC3;
+  --white: #fff;
+  --bright-blue: #C3E9FF;
+  --cyan: #0094D3;
+  --light-cyan: #84D3FF;
+  --gray: #64646480;
+  --font-family1: 'Space Grotesk', sans-serif;
+  --font-family2: 'Inria Sans', sans-serif;
+  --font-family3: 'Open Sans', sans-serif;
+  --font-family4: Roboto, 'Open Sans', sans-serif;
+}
+body{
+  height: 100vh;
+}
+.App, #root{
+  height: 100%;
+  background-color: var(--bright-blue);
+}
+
+.blob{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
